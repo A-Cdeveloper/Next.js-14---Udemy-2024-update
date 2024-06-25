@@ -46,15 +46,17 @@ export default async function AboutPage() {
         <Image
           src={image1}
           alt="Family sitting around a fire pit in front of cabin"
+          placeholder="blur"
+          quality={80}
         />
       </div>
 
-      <div className="col-span-2 aspect-square relative">
+      <div className="relative aspect-square col-span-2">
         <Image
-          src={image2}
-          alt="Family that manages The Wild Oasis"
+          src="/about-2.jpg"
           fill
-          className="object-cover object-center"
+          className="object-cover"
+          alt="Family that manages The Wild Oasis"
         />
       </div>
 
